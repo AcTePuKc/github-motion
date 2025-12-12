@@ -27,7 +27,7 @@ Simply embed the image in your GitHub **README.md** using the URL below. Replace
 ### 🌟 Basic Example
 
 ```markdown
-![GitHub Motion](https://your-domain.vercel.app/api/github-motion?username=YOUR_USERNAME)
+![GitHub Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME)
 ```
 
 ### 🧩 Customization Options
@@ -43,13 +43,13 @@ Simply embed the image in your GitHub **README.md** using the URL below. Replace
 ### 💖 The "Cute" Configuration
 
 ```markdown
-![Cute Motion](https://your-domain.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=unicorn&shape=heart&animation=rain)
+![Cute Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=unicorn&shape=heart&animation=rain)
 ```
 
 ### 👾 The "Hacker" Configuration
 
 ```markdown
-![Hacker Motion](https://your-domain.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=nightowl&shape=square&animation=matrix)
+![Hacker Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=nightowl&shape=square&animation=matrix)
 ```
 
 ---
