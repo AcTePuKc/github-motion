@@ -13,6 +13,11 @@
 # testing
 /coverage
 /scripts
+/temp_*
+*.gif
+*.avi
+*.mp4
+*.webp
 
 # next.js
 /.next/

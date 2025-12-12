@@ -1,6 +1,6 @@
 {
   "name": "github-motion",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@octokit/graphql": "^9.0.3",
+    "@types/tinycolor2": "^1.4.6",
     "next": "16.0.8",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "tinycolor2": "^1.6.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
