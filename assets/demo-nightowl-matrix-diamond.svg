@@ -1,0 +1,1538 @@
+
+    <svg width="729" height="231" viewBox="0 0 729 231" xmlns="http://www.w3.org/2000/svg">
+      <style>
+        .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #d6deeb; }
+        .title { font-size: 18px; font-weight: bold; }
+        .subtitle { font-size: 12px; opacity: 0.8; }
+        .stat-value { font-size: 20px; font-weight: bold; }
+        .stat-label { font-size: 12px; opacity: 0.6; }
+        
+        .static-content { opacity: 0; animation: fadeIn 0.8s ease-out forwards; }
+        @keyframes fadeIn { to { opacity: 1; } }
+
+        @keyframes dropAndFade {
+          0% { transform: translateY(-300px); opacity: 0; }
+          15% { transform: translateY(0); opacity: 1; }
+          75% { transform: translateY(0); opacity: 1; }
+          85% { transform: translateY(20px); opacity: 0; }
+          100% { transform: translateY(-300px); opacity: 0; }
+        }
+
+        @keyframes dropAndSway {
+          0% { transform: translateY(-300px) translateX(0); opacity: 0; }
+          10% { transform: translateY(-150px) translateX(-5px); opacity: 0.5; }
+          15% { transform: translateY(0) translateX(0); opacity: 1; }
+          30% { transform: translateY(0) translateX(1px); }
+          50% { transform: translateY(0) translateX(-1px); }
+          70% { transform: translateY(0) translateX(1px); }
+          75% { transform: translateY(0) translateX(0); opacity: 1; }
+          85% { transform: translateY(20px); opacity: 0; }
+          100% { transform: translateY(-300px); opacity: 0; }
+        }
+
+        @keyframes dropRotateAndFade {
+          0% { transform: translateY(-300px) rotate(45deg); opacity: 0; }
+          15% { transform: translateY(0) rotate(45deg); opacity: 1; }
+          75% { transform: translateY(0) rotate(45deg); opacity: 1; }
+          85% { transform: translateY(20px) rotate(45deg); opacity: 0; }
+          100% { transform: translateY(-300px) rotate(45deg); opacity: 0; }
+        }
+
+        @keyframes growUp {
+          0% { transform: translateY(100px) scaleY(0); opacity: 0; }
+          20% { transform: translateY(0) scaleY(1); opacity: 1; }
+          75% { transform: translateY(0) scaleY(1); opacity: 1; }
+          85% { opacity: 0; }
+          100% { opacity: 0; }
+        }
+
+        @keyframes growRotateUp {
+          0% { transform: translateY(100px) scale(0) rotate(45deg); opacity: 0; }
+          20% { transform: translateY(0) scale(1) rotate(45deg); opacity: 1; }
+          75% { transform: translateY(0) scale(1) rotate(45deg); opacity: 1; }
+          85% { opacity: 0; }
+          100% { opacity: 0; }
+        }
+      </style>
+
+      <rect width="100%" height="100%" fill="#011627" rx="8" stroke="#21c7a8" stroke-opacity="0.2" />
+
+      <g class="static-content">
+        <text x="20" y="32" class="text title">GitHub Motion</text>
+        <text x="709" y="32" text-anchor="end" class="text subtitle">@AcTePuKc • 2025</text>
+      </g>
+
+      <g transform="translate(20, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.3547916639457567s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(20, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5878163730243027s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(20, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.42575211142446834s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(20, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9650826591420092s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9349924869327269s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6024405500613579s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.3760330333160424s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0319270851515805s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4582648666112132s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7394981162860992s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.749684099202964s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.007500705919266548s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9472602831666964s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6438193422682894s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.40729364504853305s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5600777024217467s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9246889516193181s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0813624183737565s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8529291320995185s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.24175548689243775s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4887073983293477s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5544595481656998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1669066887111403s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8469020195030947s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0922369715307094s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7186584877113942s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.649687294554312s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9384634068919402s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.3122073530595668s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.17351932236905632s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1167034510390197s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.774437774644066s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0771474876040716s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.167436824706236s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.146835563949318s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0731140112841753s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7135660239375192s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5453899751396097s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.35948954818460754s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.066096485237401s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9721308892007601s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8601607400959126s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9654812831871438s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6378558986250917s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.50657030651578s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7356698655943058s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.752246144194274s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.47405325868194503s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.23261504821967838s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6524920631616502s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6750032900934324s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.24720120665652512s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7390346446574807s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1534156619432876s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#82aaff" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0655206994770956s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.588225513690747s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5396743836832627s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8793464487158407s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7252164942208172s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7239338834431757s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.103009503608281s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8935586539189253s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6249574873789823s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7209033427430667s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0093435784654115s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8697759959745004s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.06661593461377013s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8643660894946015s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0994749470845604s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.2297211234102473s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.3580976394081175s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4633105806532595s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5353779225795008s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.69351859212561s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9582145353114686s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0212401311141863s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9411880973697826s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7151122389200957s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8718170045490927s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.867192512606716s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.599756260063399s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.16937189782935114s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1882996835151447s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.3325771518524943s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8232544251211444s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.2573773145089956s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5090123645641804s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.807699374828859s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.2980107077776983s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8948011656725738s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#82aaff" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.2384079274568287s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.417856659336735s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.228562644892102s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9057387968528349s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.615494313164492s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8481448359356124s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6363614664164688s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6989379881364113s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5242415210679557s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6466593640841851s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4464292863360364s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.45988491292728184s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7381396703531151s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.564817099403499s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8463682030035266s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.095132872706898s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.167226049283704s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7692736194448333s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1896227462033129s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.187532528057714s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5979586869250482s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0354274351854755s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5451757845380314s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7527549616114524s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.176502637140001s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2033833105294172s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.338678959562551s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.792989962085424s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4980297885772003s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0980000964374481s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5383004167174062s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0927055516138175s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5095540373578419s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7020024910656282s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.9144043665754884s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0106442302234813s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.06180000454617296s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0232001452529649s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5830536687154226s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9299489618902214s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8684829644696568s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8077242221802807s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.12296321145833045s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9257068169668476s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.500926221599474s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.581993918533213s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.673902008311448s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2880358699256498s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6656542123394193s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7017648370721415s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.918957644170299s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.03276965801493992s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5570000939404243s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.879360381471851s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5242352526515226s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.897004090969514s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4231109804205695s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.29606980372411495s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2882285311829489s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.225721994709649s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7944711242979007s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.905698130784942s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.409679940337367s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6540463149501483s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7938194319872018s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6781768676969302s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.25885728251876217s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4636729925605558s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4944889258047793s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5373541720546822s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8424180283592024s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5865955967800727s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5047450719522005s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.24514139898722398s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6365136591876905s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.946540316578655s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6799571405708162s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.9724726074892396s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0872492243959315s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6953260402114663s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4280483876752457s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9876553727061115s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7806622642575345s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8778835627069084s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.611087122067277s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2317752572900669s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2212107926225417s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.45867961000452273s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.955544514500594s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4791199089041056s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.38648881662274315s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.08439315016536453s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.28825387262864133s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.41564127364802184s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5869140280184455s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.30678208996092604s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.74444562471964s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.887708434548223s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.852750006494018s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8460982296409724s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9865288166648852s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8707941226474605s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1430944195027601s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.295740690708708s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5271724915951967s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.3780021201994517s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5341012852108866s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.777638144867887s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6301687279990115s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.2610286658578937s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7082672373089323s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8335488002640955s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6348769377333333s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.527181846135857s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8710284207742054s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9091109711241003s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7554117250876728s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.947492839475434s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.813079745973957s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2430190688812566s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5273852241809855s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4852758340761012s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6319812960269267s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.0730111259709276s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7160448516806536s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7722223542205695s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2417303516792568s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.773284222302953s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.277619685494905s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1486349883372036s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4621926505752406s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.356122260662711s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8385471095424666s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2771831338550497s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9948779934892353s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1268077679874766s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.38913443779031487s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8587880986944043s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5412614641016882s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1349771255904484s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.630307258923244s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8189077614031353s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.13792898673109s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8671356677314406s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.006726978620342328s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4169855963048117s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7393581588943714s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.460637893757082s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.2534434281335294s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.287754470925365s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.758265832856971s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.831530727859668s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1301445095724152s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.358899552285447s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.202005900280292s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6979614330230387s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.39528022961881526s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.845721359534745s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9148918942204909s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.374552416523865s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.078817312709135s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8501168716746212s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1390679376737283s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1137074712583477s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6971654951256379s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.013176730050856289s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.091932465283713s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7251024702419742s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9001813271133612s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5010813323146812s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5037036068343923s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.08739279592418048s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6607868175991087s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.32253742216526304s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.2917406191528116s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.0802130235646672s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6998190179592956s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.391761632366411s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.3763815235522023s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.844761537449413s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.3339032994571677s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4296092918259773s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.38789252072165425s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5852252894525822s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.33496101958783s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7677467949105212s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.1620963160853608s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.4817021595011655s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7306758059411225s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0638804218579105s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.158081987310731s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.48427789108099173s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5595509862538393s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5754732339945061s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.5060570972439233s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.05922044691144s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9381315257151667s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.180181630501549s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1961438600558405s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.039204484436295s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8064739654408869s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.8036831262004942s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.810227091803041s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.56956905615937s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.794485692356717s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.325494660528222s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6532735945888306s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8354249222696017s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5992506664613807s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.7841100770602243s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7755835929825632s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4264036395294575s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6290231432423363s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.24343364817046842s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.681343605805569s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.1503217698012168s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4559401498979234s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8246979199263245s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.2781743111843675s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9696049478355597s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0782244882560343s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5199944725422632s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8309996584984181s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.917307806815503s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2983312845204322s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5600145076454256s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.9585614439272618s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0510601340985035s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6476418211178304s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5768281651616745s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6627913680227477s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.4019795637286556s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2624933484154326s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.2099077869187137s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.264087223514758s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9217110096701324s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.582094220349936s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.139920277326281s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8404631057672415s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.196756097352727s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.406639939664367s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0678718141990906s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.1782538922937102s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.0540261804882913s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.1722007206208613s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5066942887387023s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.321004509583736s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#c792ea" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6395212898216913s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#21c7a8" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5861962436619798s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6058883215107872s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#82aaff" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6939333302504298s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#22eaf2" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.784432017368446s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4955758581248484s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.833992108439137s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.9910780552699054s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5870471701493168s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.4728542207520414s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4366848770880848s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.6877281931903263s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.3383820162728366s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.6247830360065652s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.7742346738129545s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.4198958585627852s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.16775695176245586s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.3053184331456359s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.5451644139683296s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.8426986102799621s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5377270865488489s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 102)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.5726353006968099s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 115)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.4790527131920843s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 128)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.8831301033223427s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 50)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 1.2106719949669393s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 63)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.901879573584925s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 76)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 0.6320660035178622s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 89)"><rect 
+          x="1.5" y="1.5" width="7" height="7" 
+          fill="#0b253a" rx="1" 
+          style="opacity: 0; animation: dropRotateAndFade 10s infinite; animation-delay: 2.7653293000268415s; transform-origin: center; transform-box: fill-box;" 
+        /></g>
+
+      <g class="static-content">
+        <text x="20" y="181" class="text stat-value">517</text>
+        <text x="20" y="196" class="text stat-label">Total</text>
+
+        <text x="170" y="181" class="text stat-value">9</text>
+        <text x="170" y="196" class="text stat-label">Longest Streak</text>
+        
+        <text x="300" y="181" class="text stat-value">0</text>
+        <text x="300" y="196" class="text stat-label">Current Streak</text>
+      </g>
+    </svg>
+  

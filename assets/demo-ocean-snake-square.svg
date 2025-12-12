@@ -1,0 +1,1538 @@
+
+    <svg width="729" height="231" viewBox="0 0 729 231" xmlns="http://www.w3.org/2000/svg">
+      <style>
+        .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #006064; }
+        .title { font-size: 18px; font-weight: bold; }
+        .subtitle { font-size: 12px; opacity: 0.8; }
+        .stat-value { font-size: 20px; font-weight: bold; }
+        .stat-label { font-size: 12px; opacity: 0.6; }
+        
+        .static-content { opacity: 0; animation: fadeIn 0.8s ease-out forwards; }
+        @keyframes fadeIn { to { opacity: 1; } }
+
+        @keyframes dropAndFade {
+          0% { transform: translateY(-300px); opacity: 0; }
+          15% { transform: translateY(0); opacity: 1; }
+          75% { transform: translateY(0); opacity: 1; }
+          85% { transform: translateY(20px); opacity: 0; }
+          100% { transform: translateY(-300px); opacity: 0; }
+        }
+
+        @keyframes dropAndSway {
+          0% { transform: translateY(-300px) translateX(0); opacity: 0; }
+          10% { transform: translateY(-150px) translateX(-5px); opacity: 0.5; }
+          15% { transform: translateY(0) translateX(0); opacity: 1; }
+          30% { transform: translateY(0) translateX(1px); }
+          50% { transform: translateY(0) translateX(-1px); }
+          70% { transform: translateY(0) translateX(1px); }
+          75% { transform: translateY(0) translateX(0); opacity: 1; }
+          85% { transform: translateY(20px); opacity: 0; }
+          100% { transform: translateY(-300px); opacity: 0; }
+        }
+
+        @keyframes dropRotateAndFade {
+          0% { transform: translateY(-300px) rotate(45deg); opacity: 0; }
+          15% { transform: translateY(0) rotate(45deg); opacity: 1; }
+          75% { transform: translateY(0) rotate(45deg); opacity: 1; }
+          85% { transform: translateY(20px) rotate(45deg); opacity: 0; }
+          100% { transform: translateY(-300px) rotate(45deg); opacity: 0; }
+        }
+
+        @keyframes growUp {
+          0% { transform: translateY(100px) scaleY(0); opacity: 0; }
+          20% { transform: translateY(0) scaleY(1); opacity: 1; }
+          75% { transform: translateY(0) scaleY(1); opacity: 1; }
+          85% { opacity: 0; }
+          100% { opacity: 0; }
+        }
+
+        @keyframes growRotateUp {
+          0% { transform: translateY(100px) scale(0) rotate(45deg); opacity: 0; }
+          20% { transform: translateY(0) scale(1) rotate(45deg); opacity: 1; }
+          75% { transform: translateY(0) scale(1) rotate(45deg); opacity: 1; }
+          85% { opacity: 0; }
+          100% { opacity: 0; }
+        }
+      </style>
+
+      <rect width="100%" height="100%" fill="#e0f7fa" rx="8" stroke="#80deea" stroke-opacity="0.2" />
+
+      <g class="static-content">
+        <text x="20" y="32" class="text title">GitHub Motion</text>
+        <text x="709" y="32" text-anchor="end" class="text subtitle">@AcTePuKc • 2025</text>
+      </g>
+
+      <g transform="translate(20, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.015s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(20, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.03s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(20, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.045s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(20, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.06s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.075s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.09s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.105s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.12s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.135s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.15s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(33, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.16499999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.18s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.195s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.21s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.22499999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.24s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.255s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(46, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.27s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.285s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.3s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.315s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.32999999999999996s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.345s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.36s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(59, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.375s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.39s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.40499999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.42s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.435s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.44999999999999996s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.46499999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(72, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.48s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.495s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.51s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.525s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.54s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.5549999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.57s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(85, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.585s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.6s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.615s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.63s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.645s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.6599999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.6749999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(98, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.69s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 50)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.705s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.72s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 76)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.735s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.75s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.765s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.78s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(111, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.7949999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.8099999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 63)"><rect 
+          width="10" height="10" 
+          fill="#00acc1" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.825s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.84s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.855s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.87s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 115)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.885s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(124, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.8999999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.9149999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.9299999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.945s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.96s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.975s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 0.99s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(137, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.005s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.02s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 63)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.035s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.05s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.065s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.08s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.095s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(150, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.1099999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 50)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.125s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 63)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.14s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 76)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.155s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.17s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 102)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.185s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.2s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(163, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.2149999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.23s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.2449999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.26s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.275s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.29s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 115)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.305s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(176, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.3199999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.335s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.3499999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 76)"><rect 
+          width="10" height="10" 
+          fill="#00acc1" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.365s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 89)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.38s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.395s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 115)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.41s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(189, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.425s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 50)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.44s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 63)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.4549999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.47s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.4849999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.5s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.515s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(202, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.53s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.545s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.56s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.575s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.5899999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.605s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.6199999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(215, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.635s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 50)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.65s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.665s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.68s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.6949999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.71s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.7249999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(228, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.74s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.755s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.77s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.785s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.7999999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.815s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.8299999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(241, 128)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.845s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.8599999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.875s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.89s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.905s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.92s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.9349999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(254, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.95s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.9649999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.98s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 1.9949999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.01s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.025s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.04s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(267, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.0549999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.07s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.085s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.1s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.1149999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.13s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.145s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(280, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.16s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.175s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.19s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.205s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.2199999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 102)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.235s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 115)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.25s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(293, 128)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.265s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.28s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.295s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 76)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.31s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.3249999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.34s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.355s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(306, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.37s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.385s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.4s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.415s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 89)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.4299999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 102)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.445s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 115)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.46s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(319, 128)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.475s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.4899999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.505s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.52s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.5349999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.55s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.565s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(332, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.58s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.5949999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.61s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.625s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.6399999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.655s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.67s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(345, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.685s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.6999999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.715s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.73s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.745s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.76s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.775s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(358, 128)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.79s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.8049999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.82s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.835s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.85s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.8649999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.88s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(371, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.895s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.9099999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.925s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.94s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.955s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.9699999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 2.985s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(384, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.0149999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.03s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.045s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.06s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.0749999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.09s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(397, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.105s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.12s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.135s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.15s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.165s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.1799999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.195s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(410, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.21s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.225s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.2399999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.255s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.27s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.2849999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.3s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(423, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.315s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.33s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.3449999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.36s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.375s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.3899999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.405s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(436, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.42s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.435s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.4499999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.465s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.48s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.4949999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.51s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(449, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.525s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.54s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.5549999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.57s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.585s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.5999999999999996s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.6149999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(462, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.63s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.645s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.6599999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.675s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.69s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.705s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.7199999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(475, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.735s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.75s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.7649999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.78s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.795s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.81s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.8249999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(488, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.84s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.855s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.8699999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.885s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.9s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.915s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.9299999999999997s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(501, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.945s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.96s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.9749999999999996s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 3.9899999999999998s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.005s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.02s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.035s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(514, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.05s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.0649999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.08s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.095s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.109999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 102)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.125s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 115)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.14s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(527, 128)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.155s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 50)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.17s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 63)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.185s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 76)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.2s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 89)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.215s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 102)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.2299999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 115)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.245s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(540, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.26s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 50)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.2749999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.29s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.305s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.32s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.335s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.35s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(553, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.365s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.38s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.395s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.41s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.425s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.4399999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.455s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(566, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.47s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.484999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.5s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.515s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.53s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.545s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.56s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(579, 128)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.575s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 50)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.59s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 63)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.6049999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.62s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.635s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 102)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.6499999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.665s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(592, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.68s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.694999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.71s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.725s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.74s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.755s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.77s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(605, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.785s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.8s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.8149999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 76)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.83s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.845s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.859999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.875s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(618, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.89s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 50)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.905s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.92s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.935s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.95s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 102)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.965s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 115)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.9799999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(631, 128)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 4.995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.01s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 63)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.0249999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.04s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.055s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 102)"><rect 
+          width="10" height="10" 
+          fill="#006064" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.069999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 115)"><rect 
+          width="10" height="10" 
+          fill="#80deea" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.085s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(644, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.1s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 50)"><rect 
+          width="10" height="10" 
+          fill="#00acc1" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.115s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 63)"><rect 
+          width="10" height="10" 
+          fill="#26c6da" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.13s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.145s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.16s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.175s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.1899999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(657, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.205s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.22s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.234999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.25s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.265s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.279999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.295s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(670, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.31s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.325s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.34s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.3549999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.37s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 102)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.385s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 115)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.3999999999999995s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(683, 128)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.415s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 50)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.43s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 63)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.444999999999999s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 76)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.46s; transform-origin: center; transform-box: fill-box;" 
+        /></g><g transform="translate(696, 89)"><rect 
+          width="10" height="10" 
+          fill="#a7e8f0ff" rx="2" 
+          style="opacity: 0; animation: dropAndFade 10s infinite; animation-delay: 5.475s; transform-origin: center; transform-box: fill-box;" 
+        /></g>
+
+      <g class="static-content">
+        <text x="20" y="181" class="text stat-value">517</text>
+        <text x="20" y="196" class="text stat-label">Total</text>
+
+        <text x="170" y="181" class="text stat-value">9</text>
+        <text x="170" y="196" class="text stat-label">Longest Streak</text>
+        
+        <text x="300" y="181" class="text stat-value">0</text>
+        <text x="300" y="196" class="text stat-label">Current Streak</text>
+      </g>
+    </svg>
+  
