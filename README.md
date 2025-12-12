@@ -1,55 +1,93 @@
 # 🚀 GitHub Motion
 
 > **Turn your GitHub contribution graph into dynamic, animated visualizations.**  
-> Create snakes, rain, matrix effects, or rising bars. Customize shapes (hearts, diamonds) and themes!
+> Create snakes, rain, matrix effects, rising bars, or pulsing waves. Customize shapes, themes, and layouts!
 
 ## 📸 Gallery
 
+<details>
+<summary>Show gallery previews</summary>
 <div align="center">
   <img src="assets/demo-nightowl-snake-square.svg" height="180" />
   <img src="assets/demo-unicorn-rain-heart.svg" height="180" />
+  <br />
+  <img src="https://gh-motion-card.vercel.app/api/github-motion?username=AcTePuKc&theme=nightowl&animation=wave&shape=diamond&show_legend=true" />
 </div>
+</details>
 
 > See the full gallery here: [preview.md](./preview.md)
 
 ## ✨ Features
 
-- 🎬 **4 Animations:** `Snake` (Classic path), `Rain` (Matrix style), `Grow` (Rising bars), `Matrix` (Random chaos).
-- 🔶 **4 Shapes:** `Square`, `Circle`, `Heart` ❤️, `Diamond` 💎.
-- 🎨 **10+ Themes:** Including `Unicorn`, `Candy`, `NightOwl`, `Dracula`, and more.
+- 🎬 **9 Animations:** `Snake`, `Rain`, `Matrix`, `Grow`, `Wave`, `Pulsar`, `Glow`, `Flip`, `Spark`.
+- 🔶 **4 Shapes:** `Square`, `Circle`, `Heart`, `Diamond`.
+- 🎨 **70+ Themes:** Including `Unicorn`, `NightOwl`, `Dracula`, `Bulgaria`, `Dark-BG`, `India`,  and many more.
+- 🌍 **Multi-language:** Supports English, Bulgarian, German, French, Japanese, and 40+ others.
 - ⚡ **Lightweight:** Generates pure SVG with CSS animations. No heavy GIFs.
-- 📊 **Stats Included:** Total contributions, current streak, and longest streak.
+- 🛠️ **Fully Customizable:** Hide stats, ranks, legends, change border width, and more.
 
 ## 🛠️ How to Use
 
-Simply embed the image in your GitHub **README.md** using the URL below. Replace `YOUR_USERNAME` with your actual GitHub username.
+Simply embed the image in your GitHub **README.md** using the URL below.  
+Replace `YOUR_USERNAME` with your actual GitHub username.
+
+> ℹ️ **Note:** This public demo runs on a free Vercel plan with request limits.  
+> For heavy usage, see [Deploy Your Own](#deploy-your-own).
 
 ### 🌟 Basic Example
 
-```markdown
+```md
 ![GitHub Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME)
+````
+
+or
+
+```html
+<img src="https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME" />
 ```
 
-### 🧩 Customization Options
+## 🧩 Customization Options
 
-| Parameter | Type | Default | Options |
+| Parameter | Type | Default | Options / Description |
 | :--- | :--- | :--- | :--- |
 | `username` | `string` | **Required** | Your GitHub handle |
-| `animation` | `string` | `snake` | `snake`, `rain`, `matrix`, `grow` |
+| `animation` | `string` | `snake` | `snake`, `rain`, `matrix`, `grow`, `wave`, `pulsar`, `glow`, `flip`, `spark` |
 | `shape` | `string` | `square` | `square`, `circle`, `heart`, `diamond` |
-| `theme` | `string` | `dark` | `dark`, `light`, `unicorn`, `candy`, `ocean`, `dracula`, `monokai`, `nightowl`, `tokyonight`, `sunset` |
-| `year` | `number` | Current | Example: `2023` |
+| `theme` | `string` | `dark` | `dark`, `light`, `unicorn`, `candy`, `bulgaria`, `bulgaria-dark`, `dark-bg`, `dracula`, `nightowl`, `tokyonight`... (70+ available) |
+| `year` | `number` | Current | Example: `2024` |
+| `locale` | `string` | `en` | `en`, `bg`, `de`, `fr`, `es`, `ja`, `ru`, `cn`... |
+| `border_width`| `number` | `2` | Border thickness (e.g. `0` for no border, `5` for thick) |
+| `show_legend` | `boolean`| `false` | Set to `true` to show the color scale legend |
+| `hide_rank` | `boolean`| `false` | Set to `true` to hide the Rank badge (S/A/B) |
+| `hide_total` | `boolean`| `false` | Set to `true` to hide Total Contributions count |
+| `hide_streaks`| `boolean`| `false` | Set to `true` to hide Longest/Current streaks |
+
+---
+
+## 📸 Gallery & Configurations
 
 ### 💖 The "Cute" Configuration
-
+*Pink unicorn theme with falling hearts.*
 ```markdown
-![Cute Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=unicorn&shape=heart&animation=rain)
+![Cute Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=unicorn&shape=heart&animation=rain&show_legend=true)
 ```
 
 ### 👾 The "Hacker" Configuration
-
+*Matrix rain with random drops and high-contrast colors.*
 ```markdown
-![Hacker Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=nightowl&shape=square&animation=matrix)
+![Hacker Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=nightowl&shape=square&animation=matrix&hide_rank=true)
+```
+
+### 💎 The "Premium" Configuration
+*Rotating diamonds with a Glow effect on a pitch-black background.*
+```markdown
+![Diamond Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=bulgarian-darkg&shape=diamond&animation=glow&border_width=0)
+```
+
+### 🔕 The "Minimalist" Configuration
+*Just the animation. No stats, no rank, no footer.*
+```markdown
+![Minimal Motion](https://gh-motion-card.vercel.app/api/github-motion?username=YOUR_USERNAME&theme=tokyonight&animation=snake&hide_total=true&hide_streaks=true&hide_rank=true)
 ```
 
 ---
