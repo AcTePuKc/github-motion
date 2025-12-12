@@ -81,6 +81,7 @@ You can deploy this project for free on Vercel or Netlify.
 
    ```bash
    git clone https://github.com/AcTePuKc/github-motion.git
+   cd github-motion
    ```
 
 2. Install dependencies:
