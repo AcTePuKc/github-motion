@@ -11,7 +11,7 @@
   "dependencies": {
     "@octokit/graphql": "^9.0.3",
     "@types/tinycolor2": "^1.4.6",
-    "next": "16.0.8",
+    "next": "^16.0.9",
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "tinycolor2": "^1.6.0"
